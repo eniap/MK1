@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(242, 238, 233);
+ }
+
+@font-face {
+font-family: "Josefin Sans";
+src: url(JosefinSans-Light.ttf);
+}
+
+@font-face {
+font-family: "Playfair Display";
+src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+p { 
+    font-family:"Josefin Sans";
+    width: 500px;
+    color: rgb(36, 36, 36);
+    line-height: 1.5;
+}
+
+h1 {font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 63px;
+    margin-top: 70px;
+    color: rgb(115, 0, 10);
+    margin-left: 150px;
+    
+}
+p {
+    text-align: justify;
+}
+.svi {
+    margin-left: 150px;
+}
+#drugi {
+     color:  rgb(115, 1, 35);
+}
+#treci {
+    color: rgb(36, 36, 36);
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 150px;
+}
+   
+.navbar {
+    font-family:"Josefin Sans";
+    font-size: 12px;
+    font-weight:bold;
+    margin-top: 50px;
+    justify-content: center; 
+    display: flex;
+    gap: 50px;
+
+}
+
+ li {
+    width: fit-content;
+    font-family:"Josefin Sans";
+    color: rgb(36, 36, 36);
+    line-height: 1.5;
+   
+ }
+ .podnaslov {
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 2;
+    color:  rgb(115, 1, 35);
+    margin-left: 200px;
+    width: fit-content;
+ }
+ #ratnaslov {
+    color:rgb(228, 218, 205);
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 63px;
+    margin-left: 150px;
+}
+.naslov{
+    font-family: "Playfair Display";
+    color:  rgb(115, 1, 35);
+    font-weight: 600;
+    font-size: 63px;
+    margin-left: 150px;
+}
+.modairat{
+    background-color: rgb(115, 1, 35) ;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+.natuknice{
+    margin-left: 150px;
+    width: fit-content;
+}
+#rat{
+    color:rgb(228, 218, 205) ;
+    margin-left: 150px;
+}
