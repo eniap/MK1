@@ -136,16 +136,12 @@ form {
     border-style: solid;
 }
 #poruka {
-    display: flex;
     flex-direction: row;
+    ;
     height: 100px;
     border-color:rgb(228, 218, 205);
     background-color: rgb(7, 52, 73);
     border-radius: 25px;
     border-style: solid;
-    flex-direction: row;
+    
 }
-
-input#poruka {}
-
-input#poruka {}
