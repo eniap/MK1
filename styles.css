@@ -1,4 +1,4 @@
-body {
+#home {
     background-color: rgb(242, 238, 233);
  }
 
@@ -43,23 +43,25 @@ p {
     margin-bottom: 150px;
 }
    
-.navbar {
+.navbar, a{
     font-family:"Josefin Sans";
     font-size: 12px;
     font-weight:bold;
-    margin-top: 50px;
-    justify-content: center; 
+    justify-content: center;
     display: flex;
     gap: 50px;
-
+    color: rgb(36, 36, 36);
+    padding-top: 50px;
+    text-decoration: none;
+}
+#bez{
+    color:rgb(228, 218, 205);
 }
 
  li {
     width: fit-content;
     font-family:"Josefin Sans";
     color: rgb(36, 36, 36);
-    line-height: 1.5;
-   
  }
  .podnaslov {
     font-family: "Playfair Display";
@@ -93,22 +95,23 @@ p {
     padding-bottom: 70px;
 }
 .natuknice{
-    margin-left: 150px;
+    margin-left: 200px;
     width: fit-content;
+    line-height: 2;
 }
 #rat{
     color:rgb(228, 218, 205) ;
     margin-left: 150px;
+    line-height: 2;
 }
-label, input, fieldset, ::placeholder ,option {
+label, input, fieldset, ::placeholder, option, select {
     margin-top:30px;
     margin-bottom:35px;
     color:rgb(228, 218, 205);
     font-family:"Josefin Sans";
-    
 }
 ::placeholder {
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 label {
@@ -135,13 +138,44 @@ form {
     border-radius: 25px;
     border-style: solid;
 }
+
 #poruka {
-    flex-direction: row;
-    ;
+    width:500px;
     height: 100px;
     border-color:rgb(228, 218, 205);
     background-color: rgb(7, 52, 73);
     border-radius: 25px;
     border-style: solid;
-    
 }
+#fieldset {
+    margin-right: 20px;
+}
+#gumb {
+    width: 100px;
+    height: 30px;
+    border-color:rgb(228, 218, 205);
+    background-color: rgb(7, 52, 73);
+    border-radius: 25px;
+    border-style: solid;
+}
+#razdoblja{
+    background-color:  rgb(115, 1, 35);  
+}
+ #razul, #link{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(228, 218, 205);
+    font-family:"Josefin Sans";
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 3.5;
+ }
+
+ #razli {
+    border-bottom: dotted rgb(178, 168, 153) 3.5px;
+    width: 500px;
+
+ }
