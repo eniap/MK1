@@ -14,20 +14,19 @@
             <li><a id=navbar href="index.html #plavo">SIGN UP</a></li>
         </ol>
 
-
         <h1 class="svi">Moda 20. stoljeća</h1>
 
         <p id="prvi" class="svi">Moda 20. stoljeća predstavlja razdoblje značajnih promjena, 
             inovacija i kulturnih utjecaja na svijet odijevanja. Dolazi do 
             brojinh transformacija u načinu na koji se ljudi odijevaju, izražavaju
              svoj identitet, te se odnose prema modi kao umjetnosti, industriji
-             i društvenom fenomenu. Počevši od 1900-ih godina i Belle Époque 
+             i društvenom fenomenu. Počevši od 1900-ih godina i Belle Époque <sup>1</sup> 
              stila do raznolike mode 1990-ih, 20. stoljeće je bilo razdoblje
              u kojem su se modni trendovi brzo mijenjali, a pojavili su se 
              i brojni dizajneri i kultni komadi odjeće. </p>
 
-        <p id="drugi" class="svi">Neke od novosti su pojava haute couture kuća,
-             razvoj prêt-à-porter mode, uspon utjecajnih dizajnera poput Coco 
+        <p id="drugi" class="svi">Neke od novosti su pojava haute couture<sup>2</sup> kuća,
+             razvoj prêt-à-porter mode<sup>3</sup>, uspon utjecajnih dizajnera poput Coco 
              Chanel, Christiana Diora, Yves Saint Laurenta i mnogih drugih.
               Također, različite subkulture koje su ostavile svoj pečat na 
               modnom izričaju, naglašavajući povezanost mode s društvenim i 
@@ -38,36 +37,51 @@
 
          <p id="treci" class="svi">Moda 20. stoljeća je ogledalo društvenih promjena,
          a svaka desetljeća su imala svoje karakteristične trendove, od glamura 1920-ih
-          preko revolucionarnih 1960-ih do minimalizma 1990-ih.</p>
+          preko revolucionarnih 1960-ih do minimalizma<sup>4</sup>1990-ih.</p>
         
-    <div class="modairat">
-          <p class="beznaslov"> Moda i rat </p>
-        <ol>
-            <li id="rat"><strong>Prije Prvog svjetskog rata</strong></li>
-                <ul>
-                    <li id="rat">Belle Époque<sup>1</sup></li>
-                    <li id="rat">Visoke kragne, korzeti, bogate tkanine.</li>
+    <div class="dizajneri">
+          <p class="beznaslov"> Najutjecajniji modni dizajneri 20. stoljeća i njihovi doprinosi modnoj industriji </p>
+
+         <div class="imena">
+            <ol>
+                <li id="imena"><strong>Coco Chanel</strong></li>
+                    <ul>
+                        <li id="imena">Popularizirala "malu crnu haljinu" i odijelo za žene</li>
+                        <li id="imena">Uvela jednostavan i elegantan stil</li>
+                    </ul>
+                <li id="imena"><strong>Christian Dior</strong></li>
+                    <ul>
+                        <li id="imena">Stvorio "New Look"<sup>5</sup> siluetu s obilnim suknjama i uskim strukom</li>
+                        <li id="imena">Osnivač modne kuće Dior, koja je postala ikona luksuzne mode</li>
+                    </ul>
+                <li id="imena"><strong>Yves Saint Laurent</strong></li>
+                    <ul>
+                        <li id="imena">Kreirao "Le Smoking"<sup>6</sup> odijelo za žene</li>
+                        <li id="imena">unisex moda</li>
+                    </ul>
+                <li id="imena"><strong>Alexander McQueen</strong></li>
+                    <ul>
+                        <li id="imena">Britanski dizajner poznat po svojim kontroverznim i umjetničkim kreacijama</li>
+                        <li id="imena">Ispitivao granice mode i umjetnosti</li>
+                    </ul>
+                <li id="imena"><strong>Miuccia Prada</strong></li>
+                    <ul>
+                        <li id="imena">Nasljednica modne kuće Prada i kreatorica "ugly chic"<sup>7</sup> stila</li>
+                    </ul>
                 </ul>
-            <li id="rat"><strong>Tokom Prvog svjetskog rata</strong></li>
-                <ul>
-                    <li id="rat">Praktičnost i jednostavnost</li>
-                    <li id="rat">Uniforme</li>
+                <li id="imena"><strong>Cristóbal Balenciaga</strong></li>
+                    <ul>
+                        <li id="imena">Kreirao "balloon" suknje i "sack" haljine</li>
+                        <li id="imena">Španjolski dizajner poznat po inovativnim krojevima i siluetama</li>
+                    </ul>
                 </ul>
-            <li id="rat"><strong>Između dva rata</strong></li>
-                <ul>
-                    <li id="rat">Zlatno doba 1920-ih</li>
-                    <li id="rat">"flapper"<sup>2</sup> stil</li>
-                </ul>
-            <li id="rat"><strong>Tokom Drugog svjetskog rata</strong></li>
-                <ul>
-                    <li id="rat">Praktičnost i ekonomičnost</li>
-                    <li id="rat">Jeftiniji materijali</li>
-                </ul>
-            <li id="rat"><strong>Nakon Drugog svjetskog rata</strong></li>
-                <ul>
-                    <li id="rat">Moda se razvija u više novih smjerova</li>
-                </ul>
-        </ol>
+                <li id="imena"><strong>Karl Lagerfeld</strong></li>
+                    <ul>
+                        <li id="imena">Dugogodišnji kreativni direktor modne kuće Chanel</li>
+                        <li id="imena">Doprinjeo obnovi i modernizaciji Chanelovog brenda</li>
+                    </ul>
+            </ol>
+         </div>
     </div>
 
     <div class="Vremeplov">
@@ -154,39 +168,53 @@
     <div class="plavo">
 
         <p class="beznaslov">Sign up</p>
-
+        
         <form action="">
-            <label for="label">Ime</label>
-            <input type="tekst" id="okvir" placeholder="Ime" autofocus required>
 
-            <label for="label">Prezime</label>
-            <input type="tekst" id="okvir" placeholder="Prezime" required> </br>
+            <div class="inputelement">
+                <label for="label">Ime</label>
+                <input type="tekst" id="okvir" placeholder="Ime" autofocus required>
+            </div>
 
-            <label for="label">Datum rođenja</label>
-            <input type="date" id="okvir">
+            <div class="inputelement">
+                <label for="label">Prezime</label>
+                <input type="tekst" id="okvir" placeholder="Prezime" required> </br>
+            </div>
 
-            <label for="label">Password</label>
-            <input type="password" id="okvir" maxlength="10" required> </br>
+            <div class="inputelement">
+                <label for="label">Datum rođenja</label>
+                <input type="date" id="okvir">
+            </div>
 
-            <label for="label">E-mail</label>
-            <input type="email" id="okvir" required>
+            <div class="inputelement">
+                <label for="label">Password</label>
+                <input type="password" id="okvir" maxlength="10" required> </br>
+            </div>
 
-            <label for="label">Mobilni telefon</label>
-            <input type="number" id="okvir"> </br>
-           
-            <label for="label">Mjesto stanovanja:</label>
-            <select name="izbornik" id="okvir">
-                <option>Hrvatska</option>
-                <option>Izvan Hrvatske</option>
+            <div class="inputelement">
+                <label for="label">E-mail</label>
+                <input type="email" id="okvir" required>
+            </div>
 
-            </select>
+            <div class="inputelement">
+                <label for="label">Mobilni telefon</label>
+                <input type="number" id="okvir"> </br>
+            </div>
 
+            <div class="inputelement">
+                    <label for="label">Mjesto stanovanja:</label>
+                <select name="izbornik" id="okvir">
+                    <option>Hrvatska</option>
+                    <option>Izvan Hrvatske</option>
+                </select>
+            </div>
+    
             <fieldset>
                 <legend>Spol</legend>
                 <input type="radio" value="M" id="fieldset" name="spol"><label for="M">muški</label> 
                 <input type="radio" value="F" id="fieldset" name="spol"><label for="F">ženski</label> 
             </fieldset>
-
+            
             <fieldset>
                 <legend>Želim primati obavijesti</legend>
                 <input type="radio" value="News" id="fieldset"><label for="News">Prijavi me na Newsletter</label> 
