@@ -42,26 +42,40 @@ h1 {font-family: "Playfair Display";
     margin-bottom: 150px;
 }
    
-.navbar, a{
+.navbar,a{
     font-family:"Josefin Sans";
     font-size: 12px;
     font-weight:bold;
     justify-content: center;
     display: flex;
     gap: 50px;
-    color: rgb(36, 36, 36);
     padding-top: 30px;
     text-decoration: none;
+    list-style-type: none;
 }
+
+ a:link{
+    color: rgb(36, 36, 36);
+}
+a:visited{
+    color: rgb(36, 36, 36);
+}
+a:hover{
+    color:rgb(115, 1, 35);
+}
+a:active{
+    color:rgb(115, 1, 35);
+}
+
 #bez{
     color:rgb(228, 218, 205);
 }
 
- li {
+li {
     width: fit-content;
     font-family:"Josefin Sans";
-    color: rgb(36, 36, 36);
  }
+
  .podnaslov {
     font-family: "Playfair Display";
     font-weight: bold;
@@ -71,9 +85,11 @@ h1 {font-family: "Playfair Display";
     margin-left: 200px;
     width: fit-content;
  }
+
  .vremeplov{
     padding-bottom: 100px;
  }
+
  .beznaslov {
     color:rgb(228, 218, 205);
     font-family: "Playfair Display";
@@ -81,6 +97,7 @@ h1 {font-family: "Playfair Display";
     font-size: 60px;
     margin-left: 150px;
  }
+
  .dizajneri{
     background-color: rgb(115, 1, 35) ;
     padding-top: 10px;
@@ -88,6 +105,7 @@ h1 {font-family: "Playfair Display";
     display: flex;
     width: 100%
  }
+
 #imena{
     margin-left: 150px;
     color:rgb(228, 218, 205);
@@ -98,6 +116,7 @@ h1 {font-family: "Playfair Display";
 .imena{
     margin-top: 150px;
 }
+
 .naslov{
     font-family: "Playfair Display";
     color:  rgb(115, 1, 35);
@@ -105,33 +124,42 @@ h1 {font-family: "Playfair Display";
     font-size: 63px;
     margin-left: 150px;
 }
+
 .natuknice{
     margin-left: 200px;
     width: fit-content;
     line-height: 2;
 }
+
 .inputelement{
     width: 500px;
     display: flex;
     display: inline-block;
 }
+
 label, input, fieldset, ::placeholder, option, select {
     margin-top:30px;
     margin-bottom:35px;
     color:rgb(228, 218, 205);
     font-family:"Josefin Sans";
 }
-::placeholder {
-    padding-left: 20px;
-}
 
 label {
     margin-bottom: 20px;
     margin-right: 10px;
 }
-input{
-    margin-right: 50px;
+    
+input {
+    padding-left: 20px;
+    padding-right: 20px;
+    color:rgb(228, 218, 205);
+    color-scheme: dark;
 }
+
+fieldset {
+    border-radius: 25px;
+}
+
 form {
     margin-left: 200px;
     margin-right: 200px;

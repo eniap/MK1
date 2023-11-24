@@ -1,0 +1,54 @@
+
+
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family:"Josefin Sans";
+    background-color: rgb(242, 238, 233);
+   
+}
+.navbar,a{
+    font-size: 12px;
+    font-weight:bold;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px; ;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a:link{
+    color: rgb(36, 36, 36);
+}
+a:visited{
+    color: rgb(36, 36, 36);
+}
+a:hover{
+    color:rgb(115, 1, 35);
+}
+a:active{
+    color:rgb(115, 1, 35);
+    text-decoration: underline;
+}
+
+.galerija {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 7 px;
+  }
+  
+  .stupac {
+    display:flex 20%;
+    max-width: 20%;
+    padding: 0 7px;
+  }
+  
+  .stupac img {
+    margin-top: 15px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
