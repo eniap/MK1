@@ -76,6 +76,18 @@ li {
     font-family:"Josefin Sans";
  }
 
+
+ .uvod{
+    display: flex;
+    width: 100px;
+}
+
+ .slika{
+    position: absolute;
+    left: 900px;
+    top:200px;
+
+}
  .podnaslov {
     font-family: "Playfair Display";
     font-weight: bold;
@@ -88,7 +100,15 @@ li {
 
  .vremeplov{
     padding-bottom: 100px;
+    display: flex;
+    width: 100%
  }
+
+ .galerija{
+    position:relative;
+    left: 300px;
+    
+}
 
  .beznaslov {
     color:rgb(228, 218, 205);
@@ -104,6 +124,12 @@ li {
     padding-bottom: 70px;
     display: flex;
     width: 100%
+ }
+
+ .inframe{
+    position: relative;
+    left: 400px;
+
  }
 
 #imena{

@@ -1,9 +1,10 @@
-
-
 body{
     font-family:"Josefin Sans";
     background-color: rgb(242, 238, 233);
-   
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    line-height: 2;
 }
 .navbar{
     font-size: 12px;
@@ -38,29 +39,19 @@ a:active{
     text-decoration: underline;
 }
 
-.galerija {
-    justify-content: center;
+h1{
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 63px;
+    color: rgb(115, 0, 10);
+}
+iframe{
+    width: 800px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+}
+#video{
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 7 px;
-  }
-  
-  .stupac {
-    display:flex 20%;
-    max-width: 20%;
-    padding: 0 7px;
-  }
-  
-  .stupac img {
-    margin-top: 15px;
-    vertical-align: middle;
-    width: 100%;
-
-  }
-
-  @media screen and (max-width: 600px) {
-    .stupac {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
+    justify-content: center;
+}
