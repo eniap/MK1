@@ -76,16 +76,11 @@ li {
     font-family:"Josefin Sans";
  }
 
-
- .uvod{
-    display: flex;
-    width: 100px;
-}
-
  .slika{
     position: absolute;
     left: 900px;
     top:200px;
+    float: right;
 
 }
  .podnaslov {
@@ -107,6 +102,10 @@ li {
  .galerija{
     position:relative;
     left: 300px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color:  rgb(115, 1, 35) ;
+    padding: 10px;
     
 }
 
@@ -123,14 +122,11 @@ li {
     padding-top: 10px;
     padding-bottom: 70px;
     display: flex;
-    width: 100%
+    width: 100%;
+    justify-content: center;
+    align-items: center;
  }
 
- .inframe{
-    position: relative;
-    left: 400px;
-
- }
 
 #imena{
     margin-left: 150px;
