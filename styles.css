@@ -78,11 +78,12 @@ li {
 
  .slika{
     position: absolute;
-    left: 900px;
+    left: 800px;
     top:200px;
     float: right;
 
 }
+
  .podnaslov {
     font-family: "Playfair Display";
     font-weight: bold;
@@ -101,11 +102,12 @@ li {
 
  .galerija{
     position:relative;
-    left: 300px;
+    left: 50px;
     border-style: solid;
     border-radius: 30px;
     border-color:  rgb(115, 1, 35) ;
     padding: 10px;
+    scale: 0.5;
     
 }
 

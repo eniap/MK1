@@ -38,23 +38,7 @@ a:active{
     text-decoration: underline;
 }
 
-.quote{
-  background-color: rgb(204, 193, 179);
-  height: 300px;
-  text-align:justify ;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-p{
-  width: 700px;
-  padding-top: 50px;
-  font-family: "Playfair Display";
-  color:rgb(242, 238, 233);
-  font-size:30px;
-} 
 .galerija {
-    padding-top: 30px;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -67,7 +51,7 @@ p{
     padding: 0 7px;
   }
   
-    img {
+  .stupac img {
     margin-top: 15px;
     vertical-align: middle;
     width: 100%;
