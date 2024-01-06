@@ -39,7 +39,7 @@ h1 {font-family: "Playfair Display";
     color: rgb(36, 36, 36);
     font-style: italic;
     font-weight: bold;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
    
 .navbar,a{
@@ -83,6 +83,47 @@ li {
     float: right;
 
 }
+@keyframes grow-and-shrink {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .gumb{
+    animation: gumb 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    background: rgb(115, 1, 35);
+    margin-left: 50%;
+    margin-bottom: 100px;
+  }
+
+  @keyframes gumb {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .gtekst{
+    color: rgb(228, 218, 205);
+    padding-left: 10px;
+    padding-top: 3px;
+}
+  
 
  .podnaslov {
     font-family: "Playfair Display";
