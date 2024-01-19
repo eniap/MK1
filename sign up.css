@@ -1,0 +1,73 @@
+body {
+    background-color:#0e3453;  
+    height:90vh;
+    margin: 0;
+}
+a{
+    font-family: "Josefin Sans";
+    text-decoration: none;
+    color:rgb(36, 36, 36);
+    position: relative;
+    font-size: 0.9vw;
+}
+.navbar {
+    padding: 2.5rem;
+    font-weight: bold;
+    position: fixed;
+    top:0rem;
+    width: 100%;
+    background-color:rgb(242, 238, 233);
+    z-index: 1;
+    display:flex;
+    justify-content:center;
+    gap:2rem;
+    border-bottom: 1px solid  rgb(115, 1, 35);
+  }
+
+a::before {
+    background: rgb(115, 1, 35);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-in-out;
+    z-index: -1;
+    height: 0.4rem;
+    margin-top: 1.3rem;
+    border-radius: 25pt;
+  }
+  
+a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+.signup{
+    display: flex;
+    justify-content: center;
+  }
+ 
+p{  
+  
+    display: flex;
+    justify-content: center;
+    font-family: "Playfair Display";
+    color:rgb(242, 238, 233);
+    font-size: 4rem;
+    font-weight: bolder;
+    padding-top: 10rem;
+  
+}
+
+.row{
+  display: flex;
+}
+
+.inputelement{
+  flex: 50%;
+}
+label,.inputelement, input, option, fieldset {
+  font-family: "Josefin Sans";
+  color:rgb(242, 238, 233);
+}

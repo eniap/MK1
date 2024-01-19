@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moda 20. stoljeća</title>
+    <link rel="stylesheet" href="sign up.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" >POČETNA</a>
+        <a href="razdoblja.html">RAZDOBLJA</a>
+        <a href="galerija.html">GALERIJA</a>
+        <a href="pojmovi.html">POJMOVI</a>
+        <a href="signup.html">SIGN UP</a>   
+    </nav>
+</body>
+
+<p>Sign up</p>
+
+<div class="signup">
+    
+    <form action="">
+        <div class="row">
+
+            <div class="inputelement">
+                <label for="label">Ime</label>
+                <input type="tekst" placeholder="Ime" autofocus required>
+        
+                <label for="label">Prezime</label>
+                <input type="tekst" placeholder="Prezime" required> </br>
+           
+                <label for="label">Datum rođenja</label>
+                <input type="date">
+          
+                <label for="label">Password</label>
+                <input type="password" maxlength="10" required> </br>
+            </div>
+
+            <div class="inputelement">
+                <label for="label">E-mail</label>
+                <input type="email" required>
+          
+                <label for="label">Mobilni telefon</label>
+                <input type="number">
+          
+
+            
+                    <label for="label">Mjesto stanovanja:</label>
+                <select name="izbornik">
+                    <option>Hrvatska</option>
+                    <option>Izvan Hrvatske</option>
+                </select>
+            </div>
+        </div>
+
+        <fieldset>
+            <legend>Spol</legend>
+            <input type="radio" value="M" id="fieldset" name="spol"><label for="M">muški</label> 
+            <input type="radio" value="F" id="fieldset" name="spol"><label for="F">ženski</label> 
+        </fieldset>
+        
+        <fieldset>
+            <legend>Želim primati obavijesti</legend>
+            <input type="radio" value="News" id="fieldset"><label for="News">Prijavi me na Newsletter</label> 
+        </fieldset>
+        
+        <label for="poruka">Poruka</label>
+        
+        <input type="text" id="poruka" name="poruka">
+        
+        <input type="reset" value="Poništi" id="gumb">
+        <input type="submit" value="Pošalji" id="gumb">
+    </form>
+</div>
+</html>

@@ -1,0 +1,75 @@
+body {
+    background-color:rgb(242, 238, 233);  
+    height:90vh;
+    margin: 0;
+}
+p,a{
+    font-family: "Josefin Sans";
+    text-decoration: none;
+    color:rgb(36, 36, 36);
+    position: relative;
+    font-size: 0.9vw;
+}
+.navbar {
+    padding: 2.5rem;
+    font-weight: bold;
+    position: fixed;
+    top:0rem;
+    width: 100%;
+    background-color:rgb(242, 238, 233);
+    z-index: 1;
+    display:flex;
+    justify-content:center;
+    gap:2rem;
+    border-bottom: 1px solid  rgb(115, 1, 35);
+  }
+
+a::before {
+    background: rgb(115, 1, 35);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-in-out;
+    z-index: -1;
+    height: 0.4rem;
+    margin-top: 1.3rem;
+    border-radius: 25pt;
+  }
+  
+a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  .galerija {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10rem 1rem;
+  
+  }
+  
+  .stupac {
+    display:flex 20%;
+    max-width: 15%;
+    padding: 0 1rem;
+  }
+  
+  .stupac img {
+    vertical-align: middle;
+    width: 100%;
+    padding: 1rem;
+    transition: all 1s;
+  }
+  img:hover{
+      transform: scale(1.15);
+      border-radius: 2rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    .stupac {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
